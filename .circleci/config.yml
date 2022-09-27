@@ -3,10 +3,10 @@ jobs:
   build:
     docker:
       - image: cicleci/node:14
-  steps:
-    - run:
-      name: show version
-      commond: node -v
-    - run:
-      name: hello world from cicleci
-      commond: echo 'hello world'
+    steps:
+      - run:
+        name: show version
+        commond: node -v
+      - run:
+        name: hello world from cicleci
+        commond: echo 'hello world'
