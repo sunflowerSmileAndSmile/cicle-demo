@@ -30,4 +30,4 @@ jobs:
           command: chmod +x scripts/deploy.sh
       - run:
           name: Run Deploy scripts
-          command: ./scripts/deploy.sh
+          command: ../scripts/deploy.sh
